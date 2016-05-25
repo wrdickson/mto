@@ -1,0 +1,39 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+
+
+
+#leftCol {
+    overflow: auto;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);   
+}
+
+#workslate {
+    overflow: auto;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);   
+}
+
+
+
+.mainContent{
+    padding-top: 50px;
+    height: 100%;
+}
+
+
+
+
+
+

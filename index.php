@@ -21,51 +21,21 @@
  
   </head>
   <body>
-            <nav id="mtoNav" role="navigation" class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-header">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand navbar-logged-in">Moab Film Festival</a>
-                </div>
-                <div id="navbarCollapse" class="collapse navbar-collapse">
-                    <ul id="miffNavbar" class="nav navbar-nav">
-                        <li id="miffLoginNav" class="hidden"><a id = "miffLoginA" href="">Login</a></li>
-                        <li id = "miffUserNav" class="dropdown hidden">
-                            <a id="userNavA" data-toggle="dropdown" class="dropdown-toggle" href="#">MyUser<b class="caret"></b></a>
-                            <ul role="menu" class="dropdown-menu">
-                                <li><a id="userLogoff" href="">Logoff</a></li>
-                            </ul>                
-                        </li>
-						<li id="addFilmNav" class="hidden"><a href="">Add Film</a></li>
-                        <li id = "festYear" class="dropdown">
-                            <a id="yearSelect" data-toggle="dropdown" class="dropdown-toggle" href="">Year<b class="caret"></b></a>
-                            <ul role="menu" class="dropdown-menu">
-                                <li><a id="y2015" class="mYearSelect" fyear="2015" href="">2015</a></li>
-                                <li><a id="y2016" class="mYearSelect" fyear="2016" href="">2016</a></li>
-								<li><a id="y2017" class="mYearSelect" fyear="2017" href="">2017</a></li>
-								<li><a id="y2018" class="mYearSelect" fyear="2018" href="">2018</a></li>
-								<li><a id="y2019" class="mYearSelect" fyear="2019" href="">2019</a></li>
-								<li><a id="y2020" class="mYearSelect" fyear="2020" href="">2020</a></li>
-                            </ul>                
-                        </li>
-						<li id="adminToggleLi" class="hidden"><a id="adminToggleA" href="">Admin Panel</a></li>
-                    </ul>
-					
-                </div>
-            </nav>
+	<div id='navbar'>navbar</div>
+
             <div class="container-fluid mainContent">
                 <div class="row">
-                    <div class="col-md-3 col-sm-4 " id="filmsListWrapper" >
+                    <div class="col-md-3 col-sm-4 " id="leftCol" >
                         <div id="filmListView">
+							filmListView
+							<div id="sidebar1"></div>
                         </div>    
                     </div>
 					<!-- change to col-md-9 for production -->
                     <div class="col-md-9 col-sm-8 " id="workslate">
                         <div  id="workslateContent">
+							<div id="v1">v1</div>
+							<div id="v2">v2</div>
                         </div>
                     </div>
                 </div>
@@ -77,10 +47,9 @@
            
 			<div id="dialogRegion"></div>
             
-        	
             <script data-main="<?php echo BASE_URL?>assets/js/require_main.js" src="<?php echo BASE_URL?>assets/js/vendor/node_modules/requirejs/require.js"></script>
        
- 	 <!--   js
+ 	 <!--   
             <script src="<?php echo BASE_URL?>assets/js/build/compiled.js"></script>
        -->     
    </body>

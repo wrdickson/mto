@@ -10,7 +10,8 @@ requirejs.config({
 	text: "vendor/text",
     tpl: "vendor/underscore-tpl",
     underscore: "vendor/node_modules/backbone/node_modules/underscore/underscore",
-    bootstrap: "vendor/node_modules/bootstrap/dist/js/bootstrap"
+    bootstrap: "vendor/node_modules/bootstrap/dist/js/bootstrap",
+	tinymce: "vendor/tinymce/tinymce.min"
   },
   shim: {
     bootstrap: {
@@ -28,6 +29,10 @@ requirejs.config({
     },
 	datatables: {
 		deps: ["jquery"]
+	},
+	tinymce: {
+		deps: ["jquery"],
+		exports: "tinymce"
 	}
   }
 });
